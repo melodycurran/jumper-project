@@ -25,7 +25,7 @@ class Word:
         self._random = random.randint(0, (len(self._words_list) - 1))
         self._get_random_word = ""
 
-    def get_word(self):
+    def get_get_random_word(self):
         """Picks random word from the list
         
         Args: 

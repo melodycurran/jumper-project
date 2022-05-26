@@ -16,6 +16,7 @@ class Guesser:
             self (Guesser): An instance of Guesser.
         """
         self.terminal = TerminalService()
+        self.input = ""
 
     def _get_input(self):
         """Asks user for their guess.

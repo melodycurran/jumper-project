@@ -71,7 +71,7 @@ class Director:
         Args:
             self (Director): an instance of Director.
         """
-        self.word = self._random_word.get_word()
+        self.word = self._random_word.get_get_random_word()
 
     def _hide_word(self):
 
